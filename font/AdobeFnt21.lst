@@ -1,0 +1,263 @@
+%!Adobe-FontList 1.20
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AcuminVariableConcept
+FamilyName:Acumin Variable Concept
+StyleName:Default
+FullName:Acumin Variable Concept Default
+MenuName:Acumin Variable Concept
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\AcuminVariableConcept.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:CFF2VariableFont
+FileLength:1029036
+FileModTime:1571780174
+WeightClass:275
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Acumin Variable Concept
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSansKR-Black-Hestia.woff
+FileModTime:1561618928
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSansKR-Bold-Hestia.woff
+FileModTime:1561618930
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSansKR-DemiLight-Hestia.woff
+FileModTime:1561618930
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSansKR-Light-Hestia.woff
+FileModTime:1561618930
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSansKR-Medium-Hestia.woff
+FileModTime:1561618932
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSansKR-Regular-Hestia.woff
+FileModTime:1561618932
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSansKR-Thin-Hestia.woff
+FileModTime:1561618934
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSerifKR-Black
+FamilyName:Noto Serif KR
+StyleName:Black
+FullName:Noto Serif KR Black
+MenuName:Noto Serif KR Black
+StyleBits:0
+FamilyNameNative:Noto Serif KR
+StyleNameNative:Black
+FullNameNative:Noto Serif KR Black
+WritingScript:Korean
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSerifKR-Black.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6500096
+FileModTime:1534914168
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Serif KR Black
+NameArray:0,Win,16,Noto Serif KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSerifKR-Bold
+FamilyName:Noto Serif KR
+StyleName:Bold
+FullName:Noto Serif KR Bold
+MenuName:Noto Serif KR
+StyleBits:2
+FamilyNameNative:Noto Serif KR
+StyleNameNative:Bold
+FullNameNative:Noto Serif KR Bold
+WritingScript:Korean
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSerifKR-Bold.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:7705380
+FileModTime:1534914168
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Serif KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSerifKR-ExtraLight
+FamilyName:Noto Serif KR
+StyleName:ExtraLight
+FullName:Noto Serif KR ExtraLight
+MenuName:Noto Serif KR ExtraLight
+StyleBits:0
+FamilyNameNative:Noto Serif KR
+StyleNameNative:ExtraLight
+FullNameNative:Noto Serif KR ExtraLight
+WritingScript:Korean
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSerifKR-ExtraLight.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:5946476
+FileModTime:1534914168
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Serif KR ExtraLight
+NameArray:0,Win,16,Noto Serif KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSerifKR-Light
+FamilyName:Noto Serif KR
+StyleName:Light
+FullName:Noto Serif KR Light
+MenuName:Noto Serif KR Light
+StyleBits:0
+FamilyNameNative:Noto Serif KR
+StyleNameNative:Light
+FullNameNative:Noto Serif KR Light
+WritingScript:Korean
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSerifKR-Light.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:7384316
+FileModTime:1534914168
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Serif KR Light
+NameArray:0,Win,16,Noto Serif KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSerifKR-Medium
+FamilyName:Noto Serif KR
+StyleName:Medium
+FullName:Noto Serif KR Medium
+MenuName:Noto Serif KR Medium
+StyleBits:0
+FamilyNameNative:Noto Serif KR
+StyleNameNative:Medium
+FullNameNative:Noto Serif KR Medium
+WritingScript:Korean
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSerifKR-Medium.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:7549300
+FileModTime:1534914168
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Serif KR Medium
+NameArray:0,Win,16,Noto Serif KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSerifKR-Regular
+FamilyName:Noto Serif KR
+StyleName:Regular
+FullName:Noto Serif KR
+MenuName:Noto Serif KR
+StyleBits:0
+FamilyNameNative:Noto Serif KR
+StyleNameNative:Regular
+FullNameNative:Noto Serif KR Regular
+WritingScript:Korean
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSerifKR-Regular.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:7437596
+FileModTime:1534914168
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Serif KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:NotoSerifKR-SemiBold
+FamilyName:Noto Serif KR
+StyleName:SemiBold
+FullName:Noto Serif KR SemiBold
+MenuName:Noto Serif KR SemiBold
+StyleBits:0
+FamilyNameNative:Noto Serif KR
+StyleNameNative:SemiBold
+FullNameNative:Noto Serif KR SemiBold
+WritingScript:Korean
+OutlineFileName:E:\lynn\포트폴리오\portfolio\Font\NotoSerifKR-SemiBold.otf
+DataFormat:sfntData
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:7399316
+FileModTime:1534914168
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Serif KR SemiBold
+NameArray:0,Win,16,Noto Serif KR
+%EndFont
+

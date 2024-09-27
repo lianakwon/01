@@ -1,0 +1,307 @@
+/* project */
+
+#project {
+    width: 1000px;
+    height: 100vh;
+    top: 0;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-left: 80px;
+    overflow: hidden;
+}
+#project:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* IMG LIST */
+#project_img {
+    width: 440px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 50%;
+    margin-top: -260px;
+}
+#project_img li {
+    width: 120px;
+    height: 120px;
+    flex: 0 1 120px;
+    text-align: center;
+    position: relative;
+}
+#project_img li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#project_img li a h3 {
+    content: ""; display: block;
+    position: absolute;
+    top: 50%; bottom: 50%;
+    left: 50%; right: 50%;
+    width: 100px; height: 15px;
+    margin-top: -7.5px; margin-left: -50px;
+    z-index: 100;
+    transition: opacity .2s;
+    opacity: 1;
+}
+#project_img li a p {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    z-index: 10;
+    transition: all .7s;
+    opacity: 0;
+}
+/* IMG HOVER */
+#project_img li a:hover h3 {
+    opacity: 0;
+}
+#project_img li a:hover p {
+    opacity: 1;
+}
+/* IMG OFF */
+#project_img li.off:after {
+    content: ""; display: block;
+    position: absolute;
+    top: -5px; left: -5px;
+    width: 130px; height: 130px;
+    background: #fdfdfd;
+    opacity: .85;
+    z-index: 1000;
+}
+
+/* 1 */
+#project_img li:nth-child(1) a h3 {
+    background: url(../img/p01_logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#project_img li:nth-child(1) a p {
+    background: url(../img/p01_mock.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 2 */
+#project_img li:nth-child(2) a h3 {
+    background: url(../img/p02_logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 20px;
+    margin-top: -10px;
+}
+#project_img li:nth-child(2) a p {
+    background: url(../img/p01_mock.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 3 */
+#project_img li:nth-child(3) a h3 {
+    background: url(../img/p02_logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#project_img li:nth-child(3) a p {
+    background: url(../img/p01_mock.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 4 */
+#project_img li:nth-child(4) a h3 {
+    background: url(../img/p02_logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#project_img li:nth-child(4) a p {
+    background: url(../img/p01_mock.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 5 */
+#project_img li:nth-child(5) a h3 {
+    background: url(../img/p05_logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 17px;
+}
+#project_img li:nth-child(5) a p {
+    background: url(../img/p01_mock.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 6 */
+#project_img li:nth-child(6) a h3 {
+    background: url(../img/p06_logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#project_img li:nth-child(6) a p {
+    background: url(../img/p01_mock.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 7 */
+#project_img li:nth-child(7) a h3 {
+    background: url(../img/p07_logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#project_img li:nth-child(7) a p {
+    background: url(../img/p01_mock.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 8 */
+#project_img li:nth-child(8) a h3 {
+    background: url(../img/p02_logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#project_img li:nth-child(8) a p {
+    background: url(../img/p01_mock.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 9 */
+#project_img li:nth-child(9) a h3 {
+    background: url(../img/p02_logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#project_img li:nth-child(9) a p {
+    background: url(../img/p01_mock.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 10 */
+#project_img li:nth-child(10) a h3 {
+    background: url(../img/p02_logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#project_img li:nth-child(10) a p {
+    background: url(../img/p01_mock.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 11 */
+#project_img li:nth-child(11) a h3 {
+    background: url(../img/p11_logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 20px;
+    margin-top: -10px;
+}
+#project_img li:nth-child(11) a p {
+    background: url(../img/p01_mock.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* 12 */
+#project_img li:nth-child(12) a {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+}
+
+/* TXT LIST */
+#project_list {
+    width: 200px;
+    height: 830px;
+    position: fixed;
+    top: 50%; left: 50%;
+    margin-top: -140px;
+    margin-left: 240px;
+}
+#project_list > li {
+    display: block;
+    position: relative;
+}
+#project_list > li:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#project_list a {
+    margin-bottom: 20px;
+    display: block;
+    width: 200px;
+    height: 70px;
+}
+#project_list h3 {
+    float: left;
+    margin-right: 22px;
+    padding-right: 22px;
+    display: block;
+    width: 97px;
+    font: 13px/13px notoR;
+    text-align: right;
+    transition: color .2s;
+}
+#project_list li ul {
+    float: right;
+    width: 78px;
+}
+#project_list li ul li {
+    font: 11px/18px notoDL;
+    opacity: .4;
+}
+#project_list > li:before {
+    content: "▶";
+    display: block;
+    position: absolute;
+    top: 0; left: -27px;
+    transform: scale(.95);
+    font: 6px/11px notoL;
+    color: #96b3a9;
+    opacity: 0;
+    transition: opacity .2s;
+}
+#project_list a:after {
+    display: block;
+    content: "■";
+    font: 6px/11px notoL;
+    transform: scale(.75);
+    position: absolute;
+    top: 1px; right: 95px;
+    transition: opacity .2s;
+}
+#project_list h3:after {
+    content: "";
+    display: inline-block;
+    width: 1px; height: 30px;
+    border-left: 2px dotted #4d4d4d;
+    position: absolute;
+    top: 36px; right: 98px;
+    opacity: .2;
+}
+
+/* TXT HOVER */
+#project_list > li:hover:before {
+    opacity: 1;
+}
+#project_list li:hover a h3 {
+    color: #96b3a9;
+}
+#project_list li:hover a:after {
+    opacity: .4;
+}
+
+/* TXT ON */
+#project_list > li.on:before {
+    opacity: 1;
+}
+#project_list li.on a h3 {
+    color: #96b3a9;
+}
+#project_list li.on a:after {
+    opacity: .4;
+}

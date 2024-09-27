@@ -1,0 +1,564 @@
+/* project 1 */
+
+/* WRAP */
+#wrap {
+    background: #ffffff;
+}
+#box {
+    width: 100%;
+    height: 100%;
+    top: 0; left: 0;
+    padding: 20px;
+    position: relative;
+}
+#intro {
+    width: 100%;
+    height: 600px;
+    top: 0; left: 0;
+    background: url(../img/TIVI/main_logo.png) no-repeat;
+    background-size: contain;
+    background-position: top;
+    position: absolute;
+    top: -50px;
+}
+
+/* LAYOUT */
+#title {
+    width: 1300px;
+    height: 20px;
+    margin: 0 auto;
+    z-index: 100;
+}
+#title h2 {
+    content: "";
+    width: 100px;
+    height: 30px;
+    position: relative;
+    margin-top: 470px;
+    background: url(../img/TIVI/logo.png) no-repeat;
+    background-size: contain;
+    z-index: 100;
+}
+#title h2:before {
+    content: "01";
+    display: block;
+    position: absolute;
+    top: -90px; left: 0;
+    padding-top: 30px;
+    width: 20px;
+    height: 24px;
+    font: 18px/18px notoBk;
+    color: #a9cc3d;
+    border-top: 3px solid #a9cc3d;
+    z-index: 100;
+}
+#title p {
+    width: 300px;
+    height: 100px;
+    display: block;
+    margin-top: 24px;
+    font: 12.5px/19px notoL;
+    opacity: .8;
+    z-index: 999999;
+    position: relative;
+}
+#title p strong {
+    display: block;
+    font: 13px/19px notoB;
+    color: #a9cc3d;
+}
+#title button {
+    float: right;
+    width: 120px;
+    height: 45px;
+    background: linear-gradient( #244c59, #133e4c, #05141a );
+    border-radius: 8px;
+    font: 13px/45px notoM;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: -80px;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+}
+#title button:before {
+    content: "";
+    display: block;
+    width: 540px;
+    height: 1px;
+    background: linear-gradient( to right, #fff, #fcf0b1, #face4b, #c0d941, #a9cc3d );
+    position: absolute;
+    top: 22px;
+    right: 180px;
+    z-index: 100;
+}
+#title button.off {
+    opacity: 0; visibility: hidden; display: none;
+}
+#title button.off:before {
+    opacity: 0; visibility: hidden; display: none;
+}
+
+/* BEFORE */
+#content.off {
+    opacity: 0; visibility: hidden; display: none;
+}
+#content.off:before {
+    opacity: 0; visibility: hidden; display: none;
+}
+#content {
+    width: 100%;
+    height: 2200px;
+    text-align: center;
+    padding-top: 180px;
+}
+#content h3:before,
+#bottom h3:before {
+    content: "";
+    font: 8px/8px notoB;
+    text-align: center;
+    color: #568da0;
+    display: block;
+    height: 13px;
+    width: 12px;
+    border-bottom: 1px solid #568da0;
+    margin: 0 auto 20px auto;
+}
+#logo h3:before {
+    content: "GO";
+    width: 18px;
+}
+#content h3,
+#bottom h3 {
+    font: 13px/13px notoL;
+    text-align: center;
+    transform: scale(1.2, 1);
+    letter-spacing: .5px;
+}
+#content > div {
+    width: 1300px;
+    margin: 0 auto 100px auto;
+}
+
+
+
+/* LOGO */
+#logo {
+    height: 1000px;
+    text-align: center;
+    position: relative;
+}
+#logo > div {
+    position: relative;
+    height: 300px;
+}
+#logo > div:nth-child(2) img {
+    position: absolute;
+    width: 240px;
+    top: 90px;
+    left: 50%;
+    margin-left: -120px;
+}
+#logo em {
+    display: block;
+    width: 570px;
+    height: 100px;
+    position: absolute;
+    top: 290px;
+    right: 0;
+    font: 12px/19px notoL;
+    text-align: left;
+    opacity: .8;
+}
+#logo img.on {
+    animation: on 8s infinite;
+}
+#logo img.onn {
+    animation: onn 8s infinite;
+}
+@keyframes on {
+    0% { opacity: .8; }
+    40% { opacity: .8; }
+    50% { opacity: 0; }
+    90% { opacity: 0; }
+    100% { opacity: .8; }
+}
+@keyframes onn {
+    0% { opacity: 0; }
+    40% { opacity: 0; }
+    50% { opacity: .8; }
+    90% { opacity: .8; }
+    100% { opacity: 0; }
+}
+#shape {
+    width: 700px;
+    float: left;
+}
+#shape img {
+    opacity: .8;
+}
+#shape .logo1,
+#shape .logo2,
+#shape .logo3 {
+    position: relative;
+    margin: 0 auto;
+    height: 100px;
+    border: none;
+}
+#shape .logo1 {
+    top: 80px;
+    width: 360px;
+}
+#shape .logo2 {
+    top: 80px;
+    width: 360px;
+}
+#shape .logo3 {
+    top: 100px;
+    width: 540px;
+}
+#shape div img:nth-child(1),
+#shape div img:nth-child(3) {
+    position: absolute;
+    top: 0; left: 0;
+}
+#shape div img:nth-child(2),
+#shape div img:nth-child(4) {
+    position: absolute;
+    top: 0; right: 0;
+}
+
+/* color box */
+#color {
+    width: 600px;
+    float: right;
+}
+#color1 {
+    width: 100%;
+    padding: 20px;
+    padding-top: 140px;
+    text-align: center;
+}
+#color1 > div {
+    width: 600px; height: 200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    padding: 35px 10px 0 10px;
+    text-align: center;
+}
+#color1 > div > div {
+    flex: 0 1 47px;
+    position: relative;
+}
+#a1,
+#a2,
+#a3,
+#a4,
+#a5 {
+    display: block;
+    width: 48px; height: 160px;
+    position: relative;
+    z-index: 0;
+}
+#a1 {
+    background: linear-gradient( #05141A, #133E4C, #244C59 );
+}
+#a2 {
+    background: linear-gradient( #AFD13F, #dce94c, #e7ee9b );
+}
+#a3 {
+    background: linear-gradient( #FACE4B, #FFE24D, #FCF0B1 );
+}
+#a4 {
+    background: linear-gradient( #dce94c, #e7ee9b, #FCFFD9 );
+}
+#a5 {
+    background: linear-gradient( #FFE24D, #FCF0B1, #FCFFD9 );
+}
+#color1 ul {
+    margin: 12px 0;
+    position: absolute;
+    top: 98px;
+    left: 54px;
+}
+#color1 ul:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 12px;
+    height: 50px;
+    left: 0;
+}
+#color1 li {
+    font: 11px/16.5px notoL;
+    width: 60px;
+    opacity: .6;
+    letter-spacing: .8px;
+    text-align: left;
+    margin-left: 3.5px;
+}
+#color1 li strong {
+    font: 11px/16.5px notoL;
+    color: #fff;
+    margin-right: 2px;
+}
+#color1 > div > div:nth-child(1) ul:before {
+    background: linear-gradient( #05141A, #133E4C, #244C59 );
+}
+#color1 > div > div:nth-child(2) ul:before {
+    background: linear-gradient( #AFD13F, #dce94c, #e7ee9b );
+}
+#color1 > div > div:nth-child(3) ul:before {
+    background: linear-gradient( #FACE4B, #FFE24D, #FCF0B1 );
+}
+#color1 > div > div:nth-child(4) ul:before {
+    background: linear-gradient( #dce94c, #e7ee9b, #FCFFD9 );
+}
+#color1 > div > div:nth-child(5) ul:before {
+    background: linear-gradient( #FFE24D, #FCF0B1, #FCFFD9 );
+}
+#color1 > div span:nth-child(4) {
+    width: 44px; height: 172px;
+    position: absolute;
+    top: 135px; left: 2px;
+    text-align: left;
+}
+#color2 {
+    width: 1300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 400px;
+}
+#color2 ul {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#color2 ul li {
+    flex: 1;
+    display: block;
+}
+#color2 ul li img {
+    width: 220px;
+    height: 220px;
+}
+
+#icon img {
+    width: 1300px;
+    margin-top: 100px;
+}
+
+
+
+/* SCREEN */
+#screen:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border-top: 240px solid #FFF;
+    border-left: 2000px solid transparent;
+}
+#screen {
+    display: block;
+    height: 2300px;
+    width: 100%;
+    padding-top: 200px;
+    background: linear-gradient(to right,  #FACE4B, #FFE24D, #dce94c, #AFD13F );
+    position: relative;
+}
+#screen h3 {
+    margin-bottom: 40px;
+}
+#screen > div {
+    width: 1300px;
+    display: block;
+    margin: 0 auto;
+}
+#screen #vdo {
+    float: left;
+    position: absolute;
+    display: block;
+    left: 0;
+    margin-left: -500px;
+}
+#screen #vdo > video {
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 1px #FCFFD9;
+}
+#screen div {
+    float: right;
+    width: 800px;
+    height: 380px;
+    margin-right: 80px;
+    position: relative;
+}
+#screen h4 {
+    text-align: right;
+    width: 240px;
+    display: block;
+    position: absolute;
+    left: -205px; top: 5px;
+    font: 14px/14px notoDL;
+    transform: scale(1.2, 1);
+    letter-spacing: .5px;
+    color: #fff;
+}
+#screen em {
+    position: absolute;
+    width: 240px;
+    text-align: right;
+    display: block;
+    left: -180px; top: 30px;
+}
+#screen ul {
+    float: right;
+    width: 720px;
+}
+#screen li {
+    float: left;
+    margin-left: 20px;
+}
+#screen li img {
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px #FCFFD9;
+}
+
+
+
+/* EVENT */
+#event:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -240px;
+    right: 0;
+    width: 100%;
+    height: 0;
+    border-bottom: 240px solid #05141A;
+    border-right: 2000px solid transparent;
+  }
+  #event:after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: -240px;
+      left: 0;
+      width: 100%;
+      height: 0;
+      border-top: 240px solid #568da0;
+      border-left: 2000px solid transparent;
+    }
+#event {
+    background: linear-gradient( #05141A, #133E4C, #244C59, #3f7181, #568da0 );
+    padding: -20px 0 100px 0;
+    text-align: center;
+    position: relative;
+    margin: 0 0 140px 0;
+}
+#event h3,
+#event em {
+    color: #fff;
+}
+#event em {
+    width: 300px;
+    display: block;
+    font: 13px/19px notoT;
+    letter-spacing: .5px;
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    margin-left: 420px;
+}
+#event em:nth-child(2) {
+    top: 124px;
+}
+#event em:nth-child(3) {
+    top: 680px;
+}
+#event em:nth-child(4) {
+    top: 960px;
+}
+#event em:nth-child(5) {
+    top: 2110px;
+}
+#event em:nth-child(6) {
+    top: 2600px;
+}
+#event em:nth-child(7) {
+    top: 3064px;
+}
+#event em:nth-child(2)::before {
+    content: "가나다";
+    display: block;
+    margin-bottom: 5px;
+    font: 15px/19px notoM;
+    color: #c0d941;
+}
+#event em:nth-child(3)::before {
+    content: "가나다";
+    display: block;
+    margin-bottom: 5px;
+    font: 15px/19px notoM;
+    color: #c0d941;
+}
+#event em:nth-child(4)::before {
+    content: "가나다";
+    display: block;
+    margin-bottom: 5px;
+    font: 15px/19px notoM;
+    color: #c0d941;
+}
+#event em:nth-child(5)::before {
+    content: "가나다";
+    display: block;
+    margin-bottom: 5px;
+    font: 15px/19px notoM;
+    color: #c0d941;
+}
+#event em:nth-child(6)::before {
+    content: "가나다";
+    display: block;
+    margin-bottom: 5px;
+    font: 15px/19px notoM;
+    color: #c0d941;
+}
+#event em:nth-child(7)::before {
+    content: "가나다";
+    display: block;
+    margin-bottom: 5px;
+    font: 15px/19px notoM;
+    color: #c0d941;
+}
+#event em:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: #c0d941;
+    position: absolute;
+    left: -54px;
+    top: 9px;
+}
+#event img {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+
+
+/* BOTTOM */
+#bottom.off {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+}

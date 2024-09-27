@@ -1,0 +1,27 @@
+/* contents */
+#content {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#content h3 {
+    position: absolute;
+    display: block;
+    top: 50%; left: 50%;
+    margin-top: -95px; margin-left: -35px;
+}
+#content h4 {
+    position: absolute;
+    display: block;
+    top: 50%; left: 50%;
+    margin-top: 65px; margin-left: -72.5px;
+}
+#content p {
+    position: absolute;
+    display: block;
+    top: 50%; left: 50%;
+    margin-top: 80px; margin-left: -86px;
+    font: 11px/33px notoL;
+    letter-spacing: 1px;
+    opacity: .7;
+}

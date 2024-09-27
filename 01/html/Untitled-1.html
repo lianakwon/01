@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>TITLE</title> <!--page+n-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script language="JavaScript">
+        function Move(e) {
+           document.layers['Menu'].left=e.pageX
+           document.layers['Menu'].top=e.pageY
+        }
+        function Move2(){
+           document.all["Menu"].style.left=event.clientX
+           document.all["Menu"].style.top=event.clientY
+        }
+        function Follow() {
+           if (document.all) Move2()
+        }
+        function Loaded() {
+           if (document.layers) {
+                window.captureEvents(Event.MOUSEMOVE)
+                window.onmousemove=Move
+           }
+        }
+        </script>
+</head>
+<body>
+    <body bgcolor="#999" text="black" link="blue" vlink="purple" alink="red"
+    onMouseMove="Follow()" onLoad="Loaded()">
+    <DIV ID="Menu" NAME="Menu" STYLE="position:absolute; top:200; left:200">
+    <img src="../img/logoimg.png"></DIV> 
+</body>

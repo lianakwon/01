@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+
+/* ABOUT ME */
+#aboutme {
+    width: 1200PX;
+    height: 100vh;
+    top: 0; left: 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* IMG */
+#aboutme > div:nth-child(1) {
+    width: 540px;
+    height: 600px;
+    position: fixed;
+    top: 50%; right: 50%;
+    margin-top: -320px;
+    display: flex;
+    justify-content: space-between;
+}
+#aboutme > div:nth-child(1) em {
+    content: "";
+    display: block;
+    flex: 0 1 100px;
+    height: 600px;
+    background: url(../img/p01_mock.jpg);
+    position: relative;
+    z-index: 0;
+}
+#aboutme > div:nth-child(1) em:nth-child(1) {
+    background-position: 29%;
+}
+#aboutme > div:nth-child(1) em:nth-child(2) {
+    background-position: 46%;
+}
+#aboutme > div:nth-child(1) em:nth-child(3) {
+    background-position: 64%;
+}
+#aboutme > div:nth-child(1) em:after {
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    width: 110px; height: 500px;
+    position: absolute;
+    left: -5px; top: 100px;
+    background: linear-gradient( rgba(253,253,253,0), rgba(253,253,253,0), rgba(253,253,253,.5), rgba(253,253,253,1) );
+    z-index: 1;
+}
+
+/* INTRO */
+#aboutme > div:nth-child(2) {
+    content: "";
+    float: right;
+    width: 450px;
+    height: 200px;
+    margin-top: 270px;
+}
+#aboutme > div:nth-child(2) > h2 {
+    float: left;
+    width: 110px;
+    font: 24px/32px notoSB;
+    letter-spacing: 1px;
+}
+#aboutme > div:nth-child(2) > p {
+    font: 18px/38px notoSL;
+    letter-spacing: .2px;
+}
+#contact {
+    margin-top: 32px;
+}
+#contact li {
+    display: block;
+}
+#contact li:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#contact li h3 {
+    display: block;
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+    font: 13px/25px notoR;
+}
+#contact li em {
+    display: block;
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+    font: 13px/25px notoL;
+    opacity: .8;
+}
+#contact li em a {
+    font: 13px/25px notoL;
+    transition: all .1s ease-in-out;
+}
+#contact li em a:hover {
+    color: #96b3a9;
+}
+#contact li em a:after {
+    content: ""; display: block;
+    position: absolute;
+    left: 0; bottom: 0;
+    width: 0px; height: 1px;
+    background:  #96b3a9;
+    transition: width .2s ease-in-out;
+}
+#contact li em a:hover {
+    color: #96b3a9;
+}
+#contact li em:nth-child(2):hover a:after {
+    width: 60px;
+}
+#contact li em:nth-child(3):hover a:after {
+    width: 68px;
+}
+#contact li em:nth-child(4):hover a:after {
+    width: 43px;
+}
+#contact li em:last-child {
+    margin-right: 0;
+}
+#contact li:last-child em {
+    position: relative;
+}
+#contact li:last-child em:before {
+    content: "";
+    position: absolute;
+    top: 9px; left: -10px;
+    width: 5px; height: 12px;
+    background: url(../img/logoimg.png) no-repeat;
+    background-size: contain;
+    transition: opacity .2s ease-in-out;
+}
+#contact li em:hover:before {
+    opacity: .6;
+}
+
+/* ABILITY */
+#ability {
+    content: "";
+    position: absolute;
+    top: 510px; right: 0;
+    width: 960px; height: 500px;
+}
+#ability ul {
+    text-align: right;
+}
+#ability li {
+    float: left;
+    width: 300px; height: 100px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+    position: relative;
+}
+#ability h3 {
+    font: 22px/40px notoSBB;
+}
+#ability h3:after {
+    content: ""; display: block;
+    height: 12px; width: 7px;
+    position: absolute;
+    top: 8px; right: -20px;
+    background: url(../img/logoimg.png) no-repeat;
+    background-size: contain;
+    transition: opacity .2s ease-in-out;
+}
+#ability em {
+    margin-top: 15px;
+    font: 13px/13px acumin;
+    opacity: .7;
+}
+#ability strong {
+    position: absolute;
+    bottom: 12px; right: 0;
+    font: 12px/12px notoT;
+    transition: all .2s ease-in-out;
+}
+
+/* ABILITY PERCENTAGE */
+#ability li:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0; right: 0;
+    width: 270px; height: 1px;
+    background: #4d4d4d;
+    opacity: .8;
+}
+#ability li p {
+    content: "";
+    position: absolute;
+    right: 0; bottom: 1px;
+    height: 3px;
+    background: #4d4d4d;
+    opacity: .8;
+    transition: all .2s ease-in-out;
+}
+#ability li p.nine {
+    width: 240px;
+}
+#ability li p.eight {
+    width: 210px;
+}
+#ability li p.seven {
+    width: 180px;
+}
+#ability li p.six {
+    width: 150px;
+}
+#ability li p.five {
+    width: 120px;
+}
+#ability li:hover strong {
+    color: #96b3a9;
+    bottom: 18px;
+}
+#ability li:hover p {
+    background: #96b3a9;
+    height: 8px;
+}
+#ability li:hover h3:after {
+    opacity: .45;
+}
+

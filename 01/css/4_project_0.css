@@ -1,0 +1,106 @@
+/* OUTLINE */
+@font-face { font-family: notoT; src: url(../font/NotoSansKR-Thin-Hestia.woff); }
+@font-face { font-family: notoL; src: url(../font/NotoSansKR-Light-Hestia.woff); }
+@font-face { font-family: notoDL; src: url(../font/NotoSansKR-DemiLight-Hestia.woff); }
+@font-face { font-family: notoR; src: url(../font/NotoSansKR-Regular-Hestia.woff); }
+@font-face { font-family: notoM; src: url(../font/NotoSansKR-Medium-Hestia.woff); }
+@font-face { font-family: notoB; src: url(../font/NotoSansKR-Bold-Hestia.woff); }
+@font-face { font-family: notoBk; src: url(../font/NotoSansKR-Black-Hestia.woff); }
+@font-face { font-family: notoST; src: url(../font/NotoSerifKR-ExtraLight.otf); }
+@font-face { font-family: notoSL; src: url(../font/NotoSerifKR-Light.otf); }
+@font-face { font-family: notoSR; src: url(../font/NotoSerifKR-Regular.otf); }
+@font-face { font-family: notoSM; src: url(../font/NotoSerifKR-Medium.otf); }
+@font-face { font-family: notoSB; src: url(../font/NotoSerifKR-SemiBold.otf); }
+@font-face { font-family: notoSBB; src: url(../font/NotoSerifKR-Bold.otf); }
+@font-face { font-family: notoSBK; src: url(../font/NotoSerifKR-Black.otf); }
+@font-face { font-family: acumin; src: url(../font/AcuminVariableConcept.otf); }
+@font-face { font-family: bask; src: url(../font/BASKVILL.TTF); }
+@font-face { font-family: basken; src: url(../font/ENBASKVL.TTF); }
+
+
+
+/* start
+body {-ms-overflow-style:none; }
+body::-webkit-scrollbar { display:none; } */
+
+*, div, p, dl, dh, dd, dt, span, input, form, body { margin: 0; padding: 0; box-sizing: border-box; border: none; font: 11px/16px notoT; }
+table, th, td { margin: 0; padding: 0; box-sizing: border-box; color: #4d4d4d; border: none; border-collapse: collapse; }
+legend, caption { width: 0; height: 0; font-size: 0; line-height: 0; visibility: hidden; } ul,ol,li { list-style: none; }
+img { border: none; } em,strong,h1,h2,h3,h4,h5,h6 { font-style: normal; font-weight: normal; }
+a, a:link, a:hover, a:active, a:visited { color: #4d4d4d; text-decoration: none; cursor: pointer; outline: none; }
+
+#wrap { background: #fdfdfd; width: 100%; height: 100vh; overflow: hidden; z-index: -99999;}
+.cfx:after { content: ""; display: block; clear: both; height: 0; font-size: 0; line-height: 0; visibility: hidden; }
+.blind { display: block; overflow: hidden; position: absolute; left: 0; top: -1000em; }
+
+
+
+/* top */
+#top {
+    background: #fdfdfd;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 40px;
+    padding: 16px 0;
+    z-index: 99999999;
+}
+#top h1 {
+    display: block;
+    width: 113px;
+    margin: 0 auto;
+}
+#top a {
+    transition: all .2s;
+}
+#top a img {
+    height: 14px;
+}
+#top a img:nth-child(2) {
+    height: 13px;
+}
+#top a:hover {
+    opacity: .5;
+}
+
+/* LEFT RIGHT */
+#left,
+#right {
+    content: "";
+    display: block;
+    width: 40px; height: 100%;
+    position: fixed;
+    background: #fdfdfd;
+    z-index: 99999999;
+}
+#left {
+    top: 0; left: 0;
+}
+#right {
+    top: 0; right: 0;
+}
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 40px;
+    background: #fdfdfd;
+    text-align: center;
+    position: fixed;
+    bottom: 0; left: 0;
+    z-index: 99999999;
+}
+#footer em {
+    font: 10px/40px notoL;
+    letter-spacing: 1.5px;
+    transform: scale(1.12,1);
+}
+
+
+
+/* BOX CONTENT */
+#box {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    overflow: scroll;
+}
